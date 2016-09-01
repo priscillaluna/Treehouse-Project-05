@@ -1,0 +1,29 @@
+
+/* contact */
+
+.contact-info {
+  clear: both;
+  padding: 15px 0;
+    @include tablet {
+      padding: 80px 160px;
+    }
+    @include desktop {
+      padding: 80px 300px;
+    }
+
+    & p {
+      padding: 5px;
+      font-weight: lighter;
+    }
+
+    & ul {
+      margin: 0;
+      @extend %no-padding;
+    }
+
+    & li {
+      list-style-type: none;
+      line-height: 40px;
+      padding: 10px;
+    }
+}

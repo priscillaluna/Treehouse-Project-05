@@ -1,0 +1,32 @@
+
+a {
+  @extend %uppercase;
+  @extend %no-padding;
+  color: $dark-grey;
+  font-size: $font-small;
+  font-weight: bold;
+  text-decoration: none;
+    &:hover {
+      color: $black;
+    }
+    @include tablet {
+        margin: 0;
+        display: inline;
+    }
+}
+
+h1 {
+  @extend %full-width;
+  font-size: $font-large;
+}
+
+h2 {
+  @extend %uppercase;
+  font-weight: bold;
+  font-size: $font-med;
+  padding: 15px 0;
+}
+
+h3 {
+  font-weight: 500;
+}

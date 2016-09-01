@@ -1,0 +1,63 @@
+
+/* portfolio */
+
+.portfolio {
+  padding: 10px;
+  font-weight: lighter;
+  background: $white;
+    @include tablet {
+      width: 100%;
+      float: left;
+      margin: 0 auto;
+      padding: 0 10px;
+    }
+    @include desktop {
+      width: 100%;
+      float: left;
+      clear: both;
+    }
+
+    & p {
+      display: block;
+    }
+
+    & img {
+      @extend %full-width;
+        @include tablet {
+          height: 220px;
+        }
+        @include desktop {
+          height: auto;
+        }
+    }
+}
+
+.col-1 {
+  @include tablet {
+    float: left;
+    width: 50%;
+    padding-right: 10px;
+    height: 380px;
+  }
+}
+
+.col-2 {
+  @include tablet {
+    float: right;
+    width: 50%;
+    height: 380px;
+  }
+}
+
+.project {
+  @include desktop {
+    padding: 10px;
+  }
+}
+
+.col-1-large, .col-2-large, .col-3-large {
+  @include desktop {
+    width: 33%;
+    float: left;
+  }
+}

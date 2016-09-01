@@ -1,0 +1,21 @@
+
+/* general styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  @extend %no-padding;
+  margin: 0;
+  font-family: $font-stack;
+  background-color: $light-grey;
+  color: $dark-grey;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}

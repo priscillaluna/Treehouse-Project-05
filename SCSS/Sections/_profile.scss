@@ -1,0 +1,30 @@
+
+.profile {
+  font-size: $font-med;
+  padding: 20px 0;
+    @include tablet {
+      display: inline;
+      float: left;
+      width: 100%;
+  }
+    & p {
+      text-align: center;
+      font-weight: lighter;
+      display: block;
+        @include tablet {
+          width: 50%;
+        }
+  }
+}
+
+.profile-photo {
+  @extend %full-width;
+    @include tablet {
+      float: right;
+      max-width: 45%;
+    }
+    @include desktop {
+      float: right;
+      max-width: 45%;
+    }
+}

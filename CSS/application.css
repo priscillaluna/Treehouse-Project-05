@@ -1,0 +1,224 @@
+/* general styles */
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color: #f2f2f2;
+  color: #595959;
+  text-align: center;
+  overflow-x: hidden; }
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto; }
+
+.footer-name, #top {
+  margin-top: 32px;
+  display: inline;
+  height: 25px; }
+
+a, h2 {
+  text-transform: uppercase; }
+
+body, .main-nav ul, a, .contact-info ul {
+  padding: 0; }
+
+.main-nav li, h1, .portfolio img, .profile-photo {
+  width: 100%; }
+
+/* header and main navigation */
+@media (min-width: 1024px) {
+  header {
+    display: inline; } }
+
+@media (min-width: 1024px) {
+  .name {
+    float: left;
+    display: inline;
+    width: 50%;
+    margin-top: 18px;
+    text-align: left;
+    padding-left: 10px; } }
+
+@media (min-width: 768px) {
+  .main-nav {
+    width: 100%;
+    display: inline;
+    background-color: #f2f2f2; } }
+
+@media (min-width: 1024px) {
+  .main-nav ul {
+    float: right;
+    display: inline;
+    width: 50%;
+    margin-top: 32px;
+    text-align: right;
+    padding-right: 10px; } }
+
+.main-nav li {
+  margin: 5px 0 5px 0;
+  padding: 20px 0 20px 0;
+  list-style-type: none;
+  background-color: #fff; }
+  @media (min-width: 768px) {
+    .main-nav li {
+      background-color: #f2f2f2;
+      margin-left: 30px;
+      display: inline; } }
+  @media (min-width: 1024px) {
+    .main-nav li {
+      background-color: #f2f2f2;
+      margin-left: 30px; } }
+
+.line-separator {
+  border-top: 1px solid lightgrey; }
+
+.footer-nav {
+  list-style-type: none;
+  display: none; }
+  @media (min-width: 768px) {
+    .footer-nav {
+      margin-top: 32px;
+      padding-right: 10px;
+      float: right;
+      display: inline;
+      width: 50%;
+      text-align: right;
+      -webkit-padding-start: 0px; } }
+
+@media (min-width: 768px) {
+  .footer-nav li {
+    display: inline;
+    margin-left: 30px; } }
+
+.footer-name {
+  float: left; }
+  @media (min-width: 1024px) {
+    .footer-name {
+      display: inline;
+      text-align: left; } }
+
+#top {
+  float: right; }
+  @media (min-width: 768px) {
+    #top {
+      display: none; } }
+
+a {
+  color: #595959;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none; }
+  a:hover {
+    color: #000; }
+  @media (min-width: 768px) {
+    a {
+      margin: 0;
+      display: inline; } }
+
+h1 {
+  font-size: 28px; }
+
+h2 {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 15px 0; }
+
+h3 {
+  font-weight: 500; }
+
+/* contact */
+.contact-info {
+  clear: both;
+  padding: 15px 0; }
+  @media (min-width: 768px) {
+    .contact-info {
+      padding: 80px 160px; } }
+  @media (min-width: 1024px) {
+    .contact-info {
+      padding: 80px 300px; } }
+  .contact-info p {
+    padding: 5px;
+    font-weight: lighter; }
+  .contact-info ul {
+    margin: 0; }
+  .contact-info li {
+    list-style-type: none;
+    line-height: 40px;
+    padding: 10px; }
+
+/* portfolio */
+.portfolio {
+  padding: 10px;
+  font-weight: lighter;
+  background: #fff; }
+  @media (min-width: 768px) {
+    .portfolio {
+      width: 100%;
+      float: left;
+      margin: 0 auto;
+      padding: 0 10px; } }
+  @media (min-width: 1024px) {
+    .portfolio {
+      width: 100%;
+      float: left;
+      clear: both; } }
+  .portfolio p {
+    display: block; }
+  @media (min-width: 768px) {
+    .portfolio img {
+      height: 220px; } }
+  @media (min-width: 1024px) {
+    .portfolio img {
+      height: auto; } }
+
+@media (min-width: 768px) {
+  .col-1 {
+    float: left;
+    width: 50%;
+    padding-right: 10px;
+    height: 380px; } }
+
+@media (min-width: 768px) {
+  .col-2 {
+    float: right;
+    width: 50%;
+    height: 380px; } }
+
+@media (min-width: 1024px) {
+  .project {
+    padding: 10px; } }
+
+@media (min-width: 1024px) {
+  .col-1-large, .col-2-large, .col-3-large {
+    width: 33%;
+    float: left; } }
+
+.profile {
+  font-size: 20px;
+  padding: 20px 0; }
+  @media (min-width: 768px) {
+    .profile {
+      display: inline;
+      float: left;
+      width: 100%; } }
+  .profile p {
+    text-align: center;
+    font-weight: lighter;
+    display: block; }
+    @media (min-width: 768px) {
+      .profile p {
+        width: 50%; } }
+
+@media (min-width: 768px) {
+  .profile-photo {
+    float: right;
+    max-width: 45%; } }
+@media (min-width: 1024px) {
+  .profile-photo {
+    float: right;
+    max-width: 45%; } }
+
+/*# sourceMappingURL=application.css.map */
